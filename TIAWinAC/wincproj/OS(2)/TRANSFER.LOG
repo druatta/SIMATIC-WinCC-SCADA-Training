@@ -1,0 +1,137 @@
+SIMATIC AS-OS-Engineering V8.0 SP1
+Copyright © SIEMENS AG 1995-2012. All Rights Reserved.
+
+Compilation log
+===============
+
+S7 project name:                              TIAWinAC
+S7 project path:                              C:\Program Files (x86)\Siemens\Step7\S7Proj\TIAWinAC\TIAWinAC.s7p
+Compilation mode:                             AS-oriented
+Scope of compilation:                         Entire OS with memory reset
+Date of compilation:                          Monday, March 18, 2019 2:02:32 PM
+
+Options
+-------
+
+Variables and messages                        Yes
+SFC Visualization                             No
+Picture tree                                  No
+Create / update block icons                   No
+Archive tags                                  Yes   (Minimum acquisition cycle: 1 second)
+Compression of archive tags                   No
+Create/update diagnostic screens              No
+
+
+WinCC project paths
+-------------------
+
+OS(2)                C:\Program Files (x86)\Siemens\Step7\S7Proj\TIAWinAC\wincproj\OS(2)\OS(2).mcp
+
+
+AS-OS assignments and network connections
+-----------------------------------------
+
+OS               S7 program       Subnet           Subnet type  WinCC unit           Station  Segment       Rack       Slot              Address
+
+OS(2)            WinAC            PROFIBUS(1)      PROFIBUS     PROFIBUS                   2        0          0          2                     
+
+
+
+Data update (WinAC)
+-------------------
+
+There were no variables to be updated.
+
+
+
+Operator station OS(2)
+======================
+
+Clear (OS(2))
+-------------
+
+Deleting process variables...
+ 
+Logical connection WinAC:
+  Simple variables were deleted
+  Structured tags were deleted.
+Logical connection WinAC was deleted.
+  
+Empty structure types were deleted.
+ 
+Deleting messages...
+
+Delete text libraries ...
+
+
+WinCC Variables (WinAC -> OS(2))
+--------------------------------
+
+Create enumerations...
+ 
+Enumeration                                        status              
+
+There were no enumerations to create.
+
+
+Creating process variables ...
+ 
+Tag                                                block type           type                           status
+
+WinAC                                                                   Logical connection             created
+@SFCDeltaLoaded                                                         Basic tag                      created
+@DeltaCompiled                                                          Basic tag                      created
+@IM_Prefix                                                              Basic tag                      created
+@Step7DefaultLanguage                                                   Basic tag                      created
+WinAC#RawEvent                                                          Basic tag                      created
+WinAC#RawArchiv                                                         Basic tag                      created
+WinAC/MW10                                                              Basic tag                      created
+WinAC/MW10Counter                                                       Basic tag                      created
+WinAC/MW12                                                              Basic tag                      created
+WinAC/MW12Counter                                                       Basic tag                      created
+WinAC/MW14                                                              Basic tag                      created
+WinAC/MW14Counter                                                       Basic tag                      created
+
+
+Summary: The following were created:
+
+Number   Object type    
+
+     12  Basic variables
+
+
+Messages and text libraries (WinAC -> OS(2))
+--------------------------------------------
+
+Creating messages
+
+Subtype         AS obj.No.    OS obj.No.  Area                     Message grp               Object name/Origin
+
+There were no messages to create
+
+
+There are no text libraries to create.
+
+
+Correction of the picture and archive interconnections (OS(2))
+--------------------------------------------------------------
+
+There were no renamed tags.
+
+
+Update archive tags (OS(2))
+---------------------------
+ 
+Tag                                                Archive tag                                        status              
+
+There were no variables to create.
+
+
+Updating the WinCC data (OS(2))
+-------------------------------
+
+Server data were generated
+
+
+
+00 h 00 min 07 sec
